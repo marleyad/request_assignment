@@ -1,7 +1,7 @@
 const $gifArea = $("#gif-area");
 const $searchInput = $("#search");
 
-/* use ajax result to add a gif */
+/* use Ajax result to add a gif */
 
 function addGif(res) {
   let numResults = res.data.length;
