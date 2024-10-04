@@ -34,7 +34,6 @@ $("form").on("submit", async function(e) {
   addGif(response.data);
 });
 
-
 $("#removebtn").on("click", function() {
   $gifArea.empty();
 });
