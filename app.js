@@ -17,7 +17,7 @@ function addGif(res) {
   }
 }
 
-/* handle form submission: clear search box & make ajax call */
+/* Handle form submission: clear search box & make ajax call */
 
 $("form").on("submit", async function(e) {
   e.preventDefault();
